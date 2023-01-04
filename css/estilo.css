@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 12.5%;
+  padding: 4px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#barraestatica {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  /* Adds shadow to the bottom of the bar */
+  -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+  /* Adds the transparent background */
+  background-color: rgba(1, 1, 1, 0.8);
+  color: rgba(1, 1, 1, 0.8);
+}
+
+#barraestatica a {
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+#barraestatica a:hover {
+	color: grey;
+}
+
+/* Create three equal columns that floats next to each other */
+.columna {
+  float: left;
+  width: 12.5%;
+  padding: 2px;
+  height: 950px; /* Should be removed. Only for demonstration */
+}
+
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+#encabezado {
+  text-align: left;
+  font-size: 60px;
+  margin-top: 0px;
+}
+#titulo {
+      font-size: 60px;
+      text-align: center;
+}
+
+#material {
+      font-size: 12px;
+      text-align: center;
+}
+
+#yvideo {
+
+     font-size: 12px;
+      text-align: center;
+
+}
+
+footer{
+  text-align: center;
+}
